@@ -1,0 +1,34 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a sample API",
+        "title": "Meli Bootcamp API",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "name": "Valentin Faraz",
+            "url": "http://www.swagger.io/support",
+            "email": "meli@meli"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "paths": {
+        "/products": {
+            "get": {
+                "description": "description",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Get all products",
+                "responses": {
+                    "200": {
+                        "description": "ok",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

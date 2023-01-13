@@ -1,0 +1,23 @@
+host: localhost:8080
+info:
+  contact:
+    email: meli@meli
+    name: Valentin Faraz
+    url: http://www.swagger.io/support
+  description: This is a sample API
+  termsOfService: http://swagger.io/terms/
+  title: Meli Bootcamp API
+  version: "1.0"
+paths:
+  /products:
+    get:
+      description: description
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+      summary: Get all products
+swagger: "2.0"
